@@ -33,6 +33,7 @@ public class TranslateTextService {
                 translationResult = translation.getTranslatedText();
             }
         }
+        
         return translationResult;
     }
 }
