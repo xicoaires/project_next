@@ -1,0 +1,50 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ }
+ 
+ * title{
+     display: none;
+ }
+ 
+ .container{
+     display: block;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ 
+ .main-form{
+     margin-top: 30px;
+     color: #c1c1c1;
+     width: 40vw;
+ }
+ 
+ .div-image img{
+     display: center;
+     width: 130px;
+     height: 100px;
+ }
+ 
+ .bottom{
+     text-align: center;
+     color: white;
+     margin-top: 15px;
+ }
+ 
+.button-send{
+    margin-top:15px;
+}
+
+ a {
+     color: white !important;
+     text-decoration: none !important;
+ }
+
+
+ 
+ 
+ 

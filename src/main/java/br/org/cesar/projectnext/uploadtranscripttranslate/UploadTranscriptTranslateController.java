@@ -25,6 +25,6 @@ public class UploadTranscriptTranslateController {
         text.setTranscription(CloudTranscriptionService.transcriptionFile(filename));
         text.setTranslation(TranslateTextUtil.translateTextEn(text.getTranscription()));
         
-        return new ResponseEntity<UploadTranscriptTranslateModel>(text, HttpStatus.OK);
-    }
+        return new ResponseEntity<>(text, HttpStatus.OK);
+    } 
 }

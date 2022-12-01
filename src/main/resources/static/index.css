@@ -1,0 +1,32 @@
+html{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+* title{
+    display: none;
+}
+
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-image img{
+    display: center;
+    margin-bottom: 15px;
+    width: 130px;
+    height: 100px;
+}
+
+.list {
+    text-align: left;
+}
+.list li a{
+    color: teal;
+    text-decoration: none !important;
+}
